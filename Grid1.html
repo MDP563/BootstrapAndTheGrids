@@ -11,60 +11,82 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-   <link href="css/site.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
 
 </head>
 
 <body class="d-flex flex-column h-100">
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Bootstrap Grids</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                    <a class="nav-link"  href="/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/Grid1.html">Grid 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Grid2.html">Grid 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Grid3.html">Grid 3</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Grid4.html">Grid 4</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Grid5.html">Grid 5</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Grid6.html">Grid 6</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Grid7.html">Grid 7</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Grid8.html">Grid 8</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Grid9.html">Grid 9</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bootstrap Grids</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Grid1.html">Grid 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Grid2.html">Grid 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Grid3.html">Grid 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Grid4.html">Grid 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Grid5.html">Grid 5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Grid6.html">Grid 6</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Grid7.html">Grid 7</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Grid8.html">Grid 8</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Grid9.html">Grid 9</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
     <main class="flex-shrink-0">
-       <div class="container">
-           
-       </div>
+        <div class="container h-100 minHeight">
+            <div class="row row-cols-1 row-cols-md-2 gy-2 h-100">
+                <div class="col">
+                    <div class="bg-dark text-light h-100 p-2">
+                        <h1> COL ONE</h1>
+                        <p>Lorem ipsum dolor sit amet. Qui sapiente voluptatem id quia deserunt qui sunt voluptate ut
+                            sequi illo et autem reprehenderit aut possimus rerum vel distinctio quia. Id officiis veniam
+                            ad voluptas neque <em>Cum assumenda aut architecto possimus</em> ea aliquam culpa aut
+                            consequatur dolores quo doloremque rerum. </p>
+                        <p>Id repellendus quisquam aut tempora eligendi aut quia delectus. Et earum reprehenderit nam
+                            consequuntur aspernatur aut soluta sunt sed quod sint sit nihil corporis. </p>
+                        <p>Id molestias repellendus in architecto ducimus est magni officia sit rerum consequuntur et
+                            ducimus neque ut explicabo quae est reiciendis omnis. Et minima nostrum corporis <strong>Ea
+                                magnam hic voluptatum suscipit non dolorem deserunt est esse molestiae</strong> aut
+                            similique cumque. </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-secondary text-light h-100 p-2">
+                        <h1> COL TWO</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
@@ -74,7 +96,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>

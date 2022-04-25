@@ -19,3 +19,7 @@ main>.container {
     font-style: normal;
     color: rgb(195, 255, 0);
 }
+/* this sets the height to X% of the screen viewing the site*/
+.minHeight{
+    min-height: 70vh; 
+}
